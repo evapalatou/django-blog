@@ -15,7 +15,8 @@ def about_me(request):
     ``collaborate_form``
         an instance of :form: `about.CollaborateForm`.
     **Template**
-    :template:`about/about.html`        
+    :template:`about/about.html`
+            
     """
 
     if request.method == "POST":
