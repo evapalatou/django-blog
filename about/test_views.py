@@ -7,7 +7,7 @@ from .forms import CollaborateForm
 class TestAboutView(TestCase):
 
     def setUp(self):
-        """Creates about me content"""
+        """ Creates about me content """
         self.about_content = About(
             title="About Me", content="This is about me.")
         self.about_content.save()
